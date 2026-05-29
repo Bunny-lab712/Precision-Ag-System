@@ -146,4 +146,4 @@ with gr.Blocks(theme=gr.themes.Default()) as app:
 
 # --- 5. LAUNCH ---
 if __name__ == "__main__":
-    app.launch(share=True)
+    app.launch(server_name="0.0.0.0", server_port=10000)
